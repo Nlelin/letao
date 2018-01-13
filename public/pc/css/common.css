@@ -149,3 +149,8 @@ a:link, a:visited, a:hover, a:active {
 .lt_main .page_box {
   text-align: right;
 }
+
+
+.btn-default.btn_add.mb_20 {
+  margin-bottom: 20px;
+}
