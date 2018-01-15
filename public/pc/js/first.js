@@ -80,6 +80,7 @@ $(function(){
             //关闭模态框
             $('#addModal').modal('hide');
             //重新渲染数据
+            page=1;
             render();
             //重置表单 ,有参数true，表示不仅清除样式，还清除内容
             $('form').data('bootstrapValidator').resetForm(true);
