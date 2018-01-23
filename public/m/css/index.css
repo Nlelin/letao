@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+
+.nav {
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.nav li {
+  float: left;
+  width: 33.33%;
+}
+
+.product {
+  /*background-color: yellowgreen;*/
+  padding: 10px;
+  text-align: center;
+}
+.product a {
+  border:1px solid #999;
+  padding: 10px;
+  width: 48%;
+  float: left;
+  background-color: #fff;
+}
+.product a:nth-child(odd){
+  margin-right: 4%;
+  margin-bottom: 20px;
+}
+
+.product p span {
+  display: inline-block;
+}
+.product p span:first-child{
+  color: red;
+}
+.product p span:last-child {
+  text-decoration: line-through;
+}
+

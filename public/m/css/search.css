@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+a {
+  display: inline-block;
+}
+
+
+.lt_list .title {
+  font-size: 14px;
+  height: 30px;line-height: 30px;
+  color: #666;
+}
+.title span {
+  float: left;
+}
+.title .right {
+  float: right;
+}
+.title .btn_empty {
+  line-height: 30px;
+}
+.lt_list ul {
+
+  border: 1px dashed red;
+}
+.lt_list li {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed red;
+  /*padding: 0 10px;*/
+}
+.lt_list li:last-child {
+  border-bottom: none;
+}
+.lt_list a {
+  padding-left: 12px;
+}
+.lt_list .btn_delete {
+  line-height: 30px;
+}

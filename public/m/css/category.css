@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.header .left span {
+  width: 45px;
+}
+
+.m-left {
+  width: 90px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.m-left li {
+  background-color: pink;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid mediumvioletred;
+  border-right: 1px solid mediumvioletred;
+  text-align: center;
+}
+.m-left li.active {
+  background-color: #fff;
+  border-right: 1px solid transparent;
+}
+
+
+
+
+.m-right {
+  height: 100%;
+  /*background-color: skyblue;*/
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.m-right li {
+  width: 33.33%;
+  float: left;
+  padding-bottom: 20px;
+}
+.m-right img {
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}

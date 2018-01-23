@@ -1,0 +1,157 @@
+@charset "UTF-8";
+html,body {
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+span {
+  display: block;
+}
+a {
+  display: block;
+}
+img {
+  display: block;
+  width:100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  min-width: 320px;
+  height: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 55px;
+}
+
+.header {
+  width: 100%;
+  height: 45px;
+  background-color: #069;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.header .left,
+.header .right{
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top:0;
+  text-align: center;
+  line-height: 45px;
+}
+.header .left {
+  left: 0;
+}
+.header .right {
+  right: 0;
+}
+.header span {
+  height: 100%;
+  font-size: 20px;
+  color: #fff;
+}
+.header h4 {
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+}
+
+
+.footer {
+  width: 100%;
+  height: 55px;
+  background-color: #069;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.footer li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer li span {
+  color: #fff;
+  font-size: 12px;
+}
+.footer li span:nth-child(odd) {
+  font-size: 18px;
+}
+.footer li.active span {
+  color: orangered;
+}
+
+
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+
+
+
+/*搜索部分*/
+.lt_search,
+.lt_list {
+  padding: 10px;;
+}
+.lt_search input {
+  margin-bottom: 0;
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #007aff;
+}
+.lt_search button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+
+
+/*列表*/
+.product {
+  /*background-color: yellowgreen;*/
+  padding: 10px;
+  text-align: center;
+}
+.product a {
+  border:1px solid #999;
+  padding: 10px;
+  width: 48%;
+  float: left;
+  background-color: #fff;
+}
+.product a:nth-child(odd){
+  margin-right: 4%;
+  margin-bottom: 20px;
+}
+
+.product p span {
+  display: inline-block;
+}
+.product p span:first-child{
+  color: red;
+}
+.product p span:last-child {
+  text-decoration: line-through;
+}
+
+
+
