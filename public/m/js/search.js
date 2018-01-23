@@ -7,7 +7,7 @@ $(function(){
 
   //获取数据,返回数组
   function getHistory(){
-    //获取localStorage中的数据复杂数据类型要转化成json类型，如果没有，返回一个空数组,不然lt_search_data是空的，后边会报错
+    //获取localStorage中的数据，复杂数据类型要转化成json类型，如果没有，返回一个空数组,不然lt_search_data是空的，后边会报错
     var history = localStorage.getItem('lt_search_data') || '[]';
     var arr = JSON.parse(history);
     return arr;
